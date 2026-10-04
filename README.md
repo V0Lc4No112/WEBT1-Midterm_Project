@@ -9,25 +9,25 @@ A short guide to the six Apollo Moon landings for students.
 
 ## Pages
 
-- `index.html` - Home: hero with a CSS Moon that shows the six landing sites and an orbiting command module, numbers strip, Apollo 11, spacecraft cards.
+- `index.html` - Home: hero with a simple CSS Moon, numbers strip, Apollo 11, spacecraft cards.
 - `missions.html` - Missions: the six landings (own CSS Grid), a note about Apollo 13, mission data table.
 - `ask.html` - Ask: question form and an accordion with common questions.
 - `css/style.css` - the only stylesheet, shared by all pages.
 
 ## Course topics
 
-- Semantic HTML: `header`, `nav`, `main`, `section`, `article`, `aside`, `figure`, `footer`, `ol`, `table` with `caption`, `thead`, `tbody`, `tfoot`, `th scope`.
+- Semantic HTML: `header`, `nav`, `main`, `section`, `article`, `aside`, `footer`, `ol`, `table` with `caption`, `thead`, `tbody`, `tfoot`, `th scope`.
 - Form: `ask.html`, native validation (`required`, `type="email"`, `minlength`), `fieldset` and `legend` for the radio group.
 - Table: `missions.html`, two columns are hidden on phones with `d-none d-sm-table-cell`.
-- Flexbox: numbers strip, footer, Apollo 13 note.
+- Flexbox: numbers strip and footer.
 - Grid: the six landings list (1, 2 and 3 columns).
-- Own media queries: 768px and 992px, plus `prefers-reduced-motion`.
+- Own media queries: 768px and 992px.
 - Bootstrap 5.3: navbar, grid, cards, buttons, form controls, table, accordion. Colors are changed with Bootstrap CSS variables.
 
 ## Credits
 
 - Facts: NASA, https://www.nasa.gov/specials/apollo50th/missions.html
 - Sample masses: R. W. Orloff, Apollo by the Numbers, NASA SP-2000-4029.
-- Photos: NASA S69-39526 (Apollo 11 launch), NASA / Neil Armstrong AS11-40-5903 (Buzz Aldrin).
-- Fonts: Space Grotesk and Space Mono, Google Fonts.
+- Photo: NASA / Neil Armstrong AS11-40-5903 (Buzz Aldrin).
+- Font: Space Grotesk, Google Fonts.
 - Framework: Bootstrap 5.3.8 from jsDelivr.
